@@ -1,1 +1,53 @@
 # Fu-Character-Recognition
+This repository is used to store our ML final homework, a model to identify Fu character. 
+
+## 总览
+
+本模型使用了7种特征共同判断输入的一张图片是否是汉字“福”
+
+## 使用
+
+首先更改`preprocessing.ipynb`文件中的输入输出路径，完成对图片的预处理。再运行`feature.ipynb`提取特征，最后运行model文件夹中的代码即可完成分类。
+
+## 安装需求
+`feature.ipynb`requires following dependencies:
+
+- [Python](https://www.python.org/) (=3.9.13)
+- [numpy](https://numpy.org/) (=1.24.3)
+- [pandas](https://pandas.pydata.org/) (>=1.1.3)
+- [opencv-python](https://pypi.org/project/opencv-python/)(=4.8.1.78)
+- [scipy](https://www.scipy.org/) (>=1.9.1)
+- [joblib](https://pypi.org/project/joblib/) (>=0.11)
+- [scikit-learn](https://scikit-learn.org/stable/) (>=1.2.0)
+- [matplotlib](https://matplotlib.org/) (>=3.3.2)
+- [seaborn](https://seaborn.pydata.org/) (>=0.11.0)
+- [tqdm](https://tqdm.github.io/) (>=4.50.2)
+
+由于使用了专利保护的surf算法提取特征，需要使用下列命令（linux）安装opencv-contrib-python，或者直接安装低版本opencv：
+
+`CMAKE_ARGS="-DOPENCV_ENABLE_NONFREE=ON" pip install --no-binary=opencv-contrib-python opencv-contrib-python`
+
+## 分工
+
+
+
+## 备注
+
+### 数据采集需要注意
+
+尽可能多采集不同字体、形态等等的福字图片。尽可能不要包含不是福字的内容，参考老师测试集的样例。同时注意也要采集一些**非福字**的汉字图片，用于测试模型效果。
+
+### 数据预处理注意：
+
+将搜集到的图片转化成500*500像素的黑白numpy数组，以与测试集格式相匹配。注意许多图片可能携带水印，从彩色图片转化可能包含噪声，记得去除噪声。
+
+### 提取特征方法可以参考：
+
+
+
+### 特征选择注意：
+
+
+
+### 分类模型可以参考：
+
