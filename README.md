@@ -7,9 +7,11 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ## 使用
 
-使用者可以根据数据集的特点，在preprocessing.ibynb文件中选取适合的函数进行运行，对数据进行预处理.
-再运行feature.ibynb中的makeFeature函数，并给出特征类型名称可以从已处理好的数据集中提取需要的参数.
-如果需要进行模型训练与对比，则再运行model.ibynb中的函数即可.
+使用者可以根据数据集的特点，在preprocessing.ipynb文件中选取适合的函数进行运行，对数据进行预处理.
+
+再运行feature.ipynb中的makeFeature函数，并给出特征类型名称可以从已处理好的数据集中提取需要的参数.
+
+如果需要进行模型训练与对比，则再运行model.ipynb中的函数即可.
 
 ## 安装需求
 `feature.ipynb`requires following dependencies:
@@ -25,7 +27,8 @@ This repository is used to store our ML final homework, a model to identify Fu c
 - [seaborn](https://seaborn.pydata.org/) (>=0.11.0)
 - [tqdm](https://tqdm.github.io/) (>=4.50.2)
 
-## 分工
+
+## 项目成员：王珩琨，张波睿，李沛峰，谢冰洁，马正驰
 
 
 
@@ -33,17 +36,21 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ### 数据采集需要注意
 
-尽可能多采集不同字体、形态等等的福字图片。尽可能不要包含不是福字的内容，参考老师测试集的样例。同时注意也要采集一些**非福字**的汉字图片，用于测试模型效果。
+对于福字，采集时要注意我们所采集的不同字体、形态的福字中要有与最终测试集中福字类型相近的数据，并且采集的图像尽可能的要不受水印或其他噪音的影响.
 
-### 数据预处理注意：
+对于非福字，采集的过程也要尽可能的保证数据的干净，即图像中的噪音影响要尽可能的小.
 
-将搜集到的图片转化成500*500像素的黑白numpy数组，以与测试集格式相匹配。注意许多图片可能携带水印，从彩色图片转化可能包含噪声，记得去除噪声。
+
+### 数据预处理参考流程：
+
+三通道转单通道 ➡️ 图像二值化(即像素非0即255） ➡️ 图像0-1化（即像素非0即1）➡️ 使用均值滤波器去除明显的异常点（可选）➡️ 还原为二值化图片方便手动筛选
+➡️ 图片裁剪（将图片裁剪为500*500大小的图片，注意其中要使用投票式插值，避免像素点出现非0非255的点）
+
+
 
 ### 提取特征方法可以参考：
 
-
-
-### 特征选择注意：
+·
 
 
 
