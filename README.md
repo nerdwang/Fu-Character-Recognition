@@ -54,7 +54,7 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 - 还原为二值化图片方便手动筛选 $\downarrow$ 
 
-- 图片裁剪（将图片裁剪为500*500大小的图片，注意其中要使用投票式插值，避免像素点出现非0非255的点）
+- 图片裁剪（将图片裁剪为500*500大小的图片，注意其中要使用临近值插值，避免像素点出现非0非255的点）
 
 
 
