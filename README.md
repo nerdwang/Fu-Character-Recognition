@@ -23,10 +23,6 @@ This repository is used to store our ML final homework, a model to identify Fu c
 - [seaborn](https://seaborn.pydata.org/) (>=0.11.0)
 - [tqdm](https://tqdm.github.io/) (>=4.50.2)
 
-由于使用了专利保护的surf算法提取特征，需要使用下列命令（linux）安装opencv-contrib-python，或者直接安装低版本opencv：
-
-`CMAKE_ARGS="-DOPENCV_ENABLE_NONFREE=ON" pip install --no-binary=opencv-contrib-python opencv-contrib-python`
-
 ## 分工
 
 
