@@ -60,18 +60,18 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ### 提取特征方法可以参考：
 
-- Sub-Sroke：子笔画特征，将每个汉字图像按照行竖撇捺分为4个子笔画图像并利用横竖弹性网络提取每个子笔画的特征
-- IECF-Hog：Internal and External Contour Features，提取汉字图像的内外轮廓以及Hog特征合并在一起的特征
-- Hough：Hough特征，详情见参考文献
-- Gabor：Gabor滤波器提取的特征
-- GaborDEM：Gabor Double Elastic Mesh，Gabor双弹性网络特征，先将汉字图像进行子笔画提取，然后对每个子笔画提取Gabor特征并融合
-- Character-SIFT：Character-SIFT特征，详情见参考文献
+- Sub-Sroke:子笔画特征，将每个汉字图像按照行竖撇捺分为4个子笔画图像并利用横竖弹性网络提取每个子笔画的特征
+- IECF-Hog:Internal and External Contour Features，提取汉字图像的内外轮廓以及Hog特征合并在一起的特征
+- Hough:Hough特征，详情见参考文献
+- Gabor:Gabor滤波器提取的特征
+- GaborDEM:Gabor Double Elastic Mesh，Gabor双弹性网络特征，先将汉字图像进行子笔画提取，然后对每个子笔画提取Gabor特征并融合
+- Character-SIFT:Character-SIFT特征，详情见参考文献
 
 
 ### 分类模型可以参考：
 
-- SVC是一种通过构建一个能够最大化分类间隔的超平面来将不同类别的样本分开的有监督学习算法。
-- OneClassSVM是一个通过构建一个能够最大化将正例样本与原点分开的超平面，来检测异常或离群样本的无监督学习算法。
-- AdaBoost通过迭代训练一系列弱分类器，最终组合它们以获取更高的分类准确度的集成学习算法。
-- AdaCostClassifier是在AdaBoost基础上进行改进的算法，通过考虑样本类别不平衡和不同类别的代价差异来提高分类性能。
+- SVC:一种通过构建一个能够最大化分类间隔的超平面来将不同类别的样本分开的有监督学习算法。
+- OneClassSVM:一个通过构建一个能够最大化将正例样本与原点分开的超平面，来检测异常或离群样本的无监督学习算法。
+- AdaBoost:通过迭代训练一系列弱分类器，最终组合它们以获取更高的分类准确度的集成学习算法。
+- AdaCostClassifier:在AdaBoost基础上进行改进的算法，通过考虑样本类别不平衡和不同类别的代价差异来提高分类性能。
 
