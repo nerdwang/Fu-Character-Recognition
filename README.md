@@ -7,7 +7,9 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ## 使用
 
-首先更改`preprocessing.ipynb`文件中的输入输出路径，完成对图片的预处理。再运行`feature.ipynb`提取特征，最后运行model文件夹中的代码即可完成分类。
+使用者可以根据数据集的特点，在preprocessing.ibynb文件中选取适合的函数进行运行，对数据进行预处理.
+再运行feature.ibynb中的makeFeature函数，并给出特征类型名称可以从已处理好的数据集中提取需要的参数.
+如果需要进行模型训练与对比，则再运行model.ibynb中的函数即可.
 
 ## 安装需求
 `feature.ipynb`requires following dependencies:
