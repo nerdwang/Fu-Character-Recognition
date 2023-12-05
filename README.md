@@ -60,7 +60,7 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ### 提取特征方法可以参考：
 
-·
+
 
 
 
