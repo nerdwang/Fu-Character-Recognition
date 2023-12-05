@@ -75,3 +75,35 @@ This repository is used to store our ML final homework, a model to identify Fu c
 - AdaBoost: 通过迭代训练一系列弱分类器，最终组合它们以获取更高的分类准确度的集成学习算法。
 - AdaCostClassifier: 在AdaBoost基础上进行改进的算法，通过考虑样本类别不平衡和不同类别的代价差异来提高分类性能。
 
+
+### 参考文献
+
+[1] 刘妍. 基于Gabor双弹性网格特征提取的手写体汉字识别的研究[D].河北工业大学,2016.
+ 
+ [2] 张亚俊. 自由手写体汉字脱机识别融合特征的研究[D].西华大学,2017.
+ 
+ [3] 何浩智,朱宁波,刘伟.基于霍夫变换和弹性网格的手写汉字识别方法[J].计算机仿真,2008(01):240-243.
+ 
+ [4] 赵健,冯乔生,何娟娟.面向汉字识别的新特征及其提取方法[J].软件,2015,36(03):31-36.
+ 
+ [5] 张亚俊. 自由手写体汉字脱机识别融合特征的研究[D].西华大学,2017.
+ 
+ [6] 高学,金连文,尹俊勋.一种基于笔画密度的弹性网格特征提取方法[J].模式识别与人工智能,2002,15(03):351-354.
+ 
+ [7] 肖斌,黄襄念.基于SVM的几种汉字特征提取法比较研究[J].西华大学学报(自然科学版),2009,28(05):70-74.
+ 
+ [8] 廖晨阳. 基于光学字符识别的多模态任务技术研究[D].北京邮电大学,2022.DOI:10.26969/d.cnki.gbydu.2022.000608.
+ 
+ [9] 顾刚. 汉字识别关键算法研究与应用[D].浙江大学,2018.
+ 
+ [10] 金贞. 汉字特征提取及识别技术的研究[D].上海交通大学,2010.
+ 
+ [11] 王岩. 离线手写体汉字鉴别及识别算法研究[D].河北工业大学,2015.
+ 
+ [12] 樊月娇. 手写汉字的识别算法研究及系统实现[D].内蒙古大学,2018.
+ 
+ [13] Zhen Jin,Kaiyue Qi,Yi Zhou,Kai Chen,Jianbo Chen,Haibing Guan.SSIFT: An Improved SIFT Descriptor for Chinese Character Recognition in Complex Images[D].Shanghai Jiao Tong University ,2002.
+ 
+ [14] Zhiyi Zhang,Lianwen Jin,Kai Ding,Xue Gao.Character-SIFT: A Novel Feature for Offline Handwritten Chinese Character Recognition[J].10th International Conference on Document Analysis and Recognition, ICDAR 2009, Barcelona, Spain, 26-29 July 2009
+
+
