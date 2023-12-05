@@ -3,7 +3,7 @@ This repository is used to store our ML final homework, a model to identify Fu c
 
 ## 总览
 
-本模型使用了7种特征共同判断输入的一张图片是否是汉字“福”
+本模型使用了6种特征分别判断输入的一张图片是否是汉字“福”，进行交叉对比
 
 ## 使用
 
